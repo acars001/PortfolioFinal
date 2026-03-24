@@ -8,69 +8,52 @@
 </head>
 
 <body>
-    <div id="home">
-        <div class="verticalNav">
-            <a href="">About Me</a>
-            <a href="">Projects</a>
-            <a href="contact.html">Contact</a>
+    <!-- Navigation overlay -->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <div class="overlay-content">
+            <a onclick="closeNav()">HOME</a>
+            <a href="">PROJECTS</a>
+            <a href="">ABOUT</a>
+        </div>
+    </div>
+    
+    <div class="content">
+        <!--Menu button that changes to an x when clicked-->
+        <div class="menu" onclick="openNav()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
         </div>
 
-        <div class="content">
-            </br>
-            <h1 style="text-align:left; font-size: 80px; word-wrap: break-word;">Ashley Carstairs</h1>
-            </br>
-            </br>
-            <h2 class="mainText" style="text-align:right; font-size: 30px;">Web Design and Developer transitioning into UX Design</h2>
-        </div>
+        <h1 style="text-align:left; font-size: 80px; word-wrap: break-word;">Ashley Carstairs</h1>
+        </br>
+        </br>
+        <h2 class="mainText" style="text-align:right; font-size: 30px;">Web Design and Developer transitioning into UX Design</h2>
     </div>
 
     <div id="aboutMe">
+        <div class="content">
         <br>
         <h1>About Me</h1>
         <h2 style="text-align:left">I am a web designer with a passion for human-centred design. I strive to make user-friendly engaging designs for all. </h2>
         <h2 style="text-align:right">I value... lorem ipsum lorem ipsum lorem ipsum lorem ipslorem ipsum lorem ipsum um lorem ipsum lorem ipsum </h2>
-        <br>
+        </div>
     </div>
 
-    <div id="projects">
+    <div>
+        <div class="content">
+        <h1 style="margin-left:25px">My Projects</h1>
+
+        <img id="projects" src="JusjaxButton.png" alt="HealthAI Button">
+        <img id="projects" src="HealthAIButton.png" alt="HealthAI Button">
+        <img id="projects" src="DottyvilleButton.png" alt="HealthAI Button">
+        <a href="evri.html">
+            <img id="projects" src="EVRIButton.png" alt="EVRI Button">
+        </a>
         <br>
-        <h1>My Projects</h1>
-
-        <div class="project-grid">
-            <article class="project-card">
-                <img class="desktop" src="fullDesktop.png"></img>
-                <h3>Unity Walkthrough</h3>
-            </article>
-
-            <article class="project-card">
-                <img class="desktop" src="fullDesktop.png"></img>
-                <h3>Dottyville Project</h3>
-            </article>
-
-            <article class="project-card">
-                <img class="desktop" src="fullDesktop.png"></img>
-                <h3>Other Project</h3>
-            </article>
-
-            <a style="display:block; text-align:center;" html="projects.html">View all projects</a>
         </div>
-        <br>
-    </div>
-
-    <div class="footer">
-        <div id="left">
-            <h2>ASHLEY CARSTAIRS</h2>
-        </br>
-            <h2>ashleycarstairs2004@outlook.com</h2>
-            <h2>07847487741</h2>
-        </div>
-
-        <div id="right">
-            <h2>ABOUT ME</h2>
-            <h2>PROJECTS</h2>
-            <h2>CONTACT</h2>
-        </div>
-
     </div>
     
     <script src="script.js"></script>
