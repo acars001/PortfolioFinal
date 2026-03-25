@@ -23,25 +23,36 @@
         <div class="content">
         <!--Menu button that changes to an x when clicked-->
         <div class="menu" onclick="openNav()">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+            <div style="background-color: #ffffff" class="bar1"></div>
+            <div style="background-color: #ffffff" class="bar2"></div>
+            <div style="background-color: #ffffff" class="bar3"></div>
         </div>
         <br>
 
         <!--EVRI Case Study-->
         <h1>EVRI AI Chatbot Usability Study</h1>
-        <h3>This was a short limited case study to demonstrate my understanding of emotional design and AI acceptance (UX principles?) on a suitable mobile application</h3>
+        <p>This project evaluated the usability of EVRI's customer service chatbot to identify key user frustrations 
+            and produce design improvements with an aim to increase trust, efficiency and emotional engagement.</p>
+
+        <p>Utilising usability testing and qualitative feedback, I explored how users interacted with the chatbot to 
+            create targeted design changes to improve the support experience.</p>
+        
         <h3><b>Aim:</b> Improve EVRI's Customer Service Chatbot</h3>
         <h3><b>Role:</b> UX Researcher and Designer</h3>
-        <p>EVRI recieves many negative reviews revealing a common theme of issues with <b>EVRI’s chatbot and/or their customer service in general.</b> This project evaluated the usability of the EVRI customer service chatbot including ways to improve the user experience through trust, efficiency and emotional connection.</p>
         </div>
     </div>
     
     <div class="problem">
         <div class="content">
         <h2>Problem</h2>
-        <p>Customer reviews and industry reports show user frustrations with EVRI’s customer support. Many users rely on the chatbot service for issues with deliveries, but a lack of understanding was leading to hightened frustration revealing low usability and task completion.</p>
+        <p>Customer reviews and industry reports highlight frequent user frustration with EVRI’s customer support.
+             Many customers rely on the chatbot service for issues with deliveries, but a lack of understanding was 
+             leading to hightened frustration and revealed low usability and task completion.</p>
+        
+        <p>Support tools and general customer service are often used during times of heightened 
+            stress for customers (e.g when parcels have been misdelivered), system limitations can 
+            then lead to a significant increase in user frustration, emphasising the importace of 
+            chatbot usability</p>
         <br>
         <div class="row">
             <img src="reviewOne.png" alt="Negative EVRI review">
@@ -62,8 +73,11 @@
     <div class="three">
         <div class="content">
         <h2>Research</h2>
-        <p>I created a user persona and user journey...</p>
-        <p>I conducted usability testing with each participant completing the same three tasks:</p>
+        <p>Initially a user group was selected and then a user journey was made to visualise customer behaviour, needs and pain points.</p>
+        <img style="width: 100%" src="evriUserGroup.png" alt="Evri User Group">
+        <img style="width: 100%" src="evriUserJourney.png" alt="Evri User Journey">
+        <br>
+        <p>A Usability study was conducted with participants who were aged 18-40 and who regularly shopped online. Each participant completed the same three tasks:</p>
         <ol>
             <li>Navigate from the homepage to the chatbot and track a parcel</li>
             <li>Open a new chat discussing a missing parcel</li>
@@ -80,14 +94,21 @@
         <h2>Key Insights</h2>
         <p>Testing revealed three major issues:</p>
         <ol>
-            <li><b>Poor Chatbot discoverability</b><br>100% of participants, new to the EVRI app, struggled to find the chatbot from the app homepage</b></li><br>
-            <li><b>Negative User Experience</b><br>100% of participants were either confused or frustrated starting a new chat</li>
-            <br><li><b>Lack of understanding</b><br>The chatbot frequently struggled to interpret slight differences in prompts and commonly misinterpreted or ignored user queries as a result. Although the responses were clear and timely there is a lack of understanding for vague or complex prompts.
-            <br><br>Feedback from participants:<br><br>
+            <li><b>Poor Chatbot discoverability</b><br>100% of participants, new to the EVRI app, struggled to find the chatbot from the app homepage.
+             This suggests the chatbot discoverability is low and may not align with users' expectations.</b></li><br>
+            
+             <li><b>Negative User Experience</b><br>100% of participants were either confused or frustrated starting a new chat.
+             This seemed to be as a result of there being multiple ways to perform similar tasks that had different outcomes.</li><br>
+            
+             <li><b>Lack of understanding</b><br>The chatbot frequently struggled to interpret slight differences in prompts and commonly misinterpreted 
+                or ignored user queries as a result. Although the responses were clear and timely there is a lack of understanding for vague or complex prompts.
+            
+                <br><br>Feedback from participants:<br><br>
         </ol>    
             <div class="emphasis">
                 <h3>“When asked the question the chatbot response seemed like there was no understanding.”</h3>
-                <h3>“I feel the chat was very inefficient when it came to new prompts and seemed to only work when the options were clicked and the text entered had no errors"</h3>
+                <h3>“I feel the chat was very inefficient when it came to new prompts and seemed to only work when the options were clicked and 
+                    the text entered had no errors"</h3>
             </div>
 
         </div>
@@ -101,6 +122,9 @@
 
             <div class="solutionCard">
                 <h2><b>1 - Clear entry point</b></h2>
+                <p>To improve discoverability, a clearer entry poster was introduced to the homepage, in addition to the redesigned chatbot pop-up.
+                    This allows users to quickly access support when necessary.
+                </p>
                 <ul>
                     <li>'Help' poster for homepage</li>
                     <li>Re-design for chatbot pop-up</li>
@@ -110,6 +134,7 @@
 
             <div class="solutionCard">
                 <h2><b>2 - Improving clarity of 'End chat' button</b></h2>
+                <p>To avoid user error and confusion I created one path for users to end/create new chat.</p>
                 <ul>
                     <li>New 'End Chat' button</li>
                     <li>New 'End Chat' pop-up</li>
@@ -122,6 +147,11 @@
 
             <div class="solutionCard">
                 <h2><b>3 - Implementing error handling</b></h2>
+                <p>The chatbot failed to understand any user input error or interpret complex prompts.
+                    This led to a feeling of one-sided conversation that was fixed by allowing users to 
+                    alter entries and let the chatbot know if it wasn't helping to solve the original problem.</p>
+                </p>
+                
                 <ul>
                     <li>Allow for user input errors</li>
                     <li>Embracing chatbot misunderstanding</li>
@@ -135,10 +165,19 @@
 
             <div class="solutionCard">
                 <h2><b>4 - Humanised chatbot</b></h2>
-                <p>I created a new visual identity for Ezra to facilitate a more 'human-like' connection and promote an empathetic reaction </p>
+                <p>To address the lack of emotional engagement creating a disconnect between users and service, I designed a new visual identity 
+                    for the chatbot. Giving Ezra, the chatbot name, a distinguishable character helps to create a more humanised interaction and 
+                    can encourage users to feel more at ease when interacting with automated support. This is increasingly important with the rise 
+                    of AI and hesitant AI acceptance</p>
                 <img style="width:100%; align-items: center;" src="Ezra.png" alt="Ezra evolution re-design">
             </div>
         </div>
+
+        <h3>Summary</h3>
+        <p>Users couldn't find the chatbot -> Designed a clearer homepage entry</p>
+        <p>Users confused ending chats -> Created clear 'End Chat' pathway</p>
+        <p>Chatbot misunderstanding prompts -> Added user and chatbot error-handling</p>
+        <p>Users couldn't connect with the chatbot -> Utilised empathetic design for Ezra identity</p>
         </div>
     </div>         
     
@@ -147,24 +186,31 @@
         <h2>Impact and Limitations</h2>
         <p>These changes aim to:</p>
         <ul>
-            <li>Increase trust in EVRI’s customer service</li>
-            <li>Improve chatbot comprehension and usability</li>
-            <li>Reduce customer frustrations throughout support channels</li>
+            <li>Increase trust in EVRI’s customer service by reducing customer frustrations</li>
+            <li>Improve chatbot comprehension and usability by improving chatbot responses to user errors 
+                and reducing confusion with ending conversations</li>
+            <li>Improve chatbot discoverability from the homepage</li>
+            <li>Create a more empathetic and communicative chatbot experience</li>
         </ul>
 
         <p>Limitations</p>
         <ul>
-            <li>Low sample size and variation</li>
+            <li>Small sample size and variation</li>
             <li>Short testing timeframe</li>
-            <li>Participant bias (all napier students)</li>
             <li>No access to the backend</li>
         </ul>
         </div>
     </div>
 
-    <div class="takeaways">
+    <div class="banner">
         <div class="content">
-        <h2>Key Takeaways</h2>
+        <h2>Reflection</h2>
+
+        <ul>
+            <li>Small design changes can be just as effective as a full redesign, resulting in a more targeted and focused approach</li>
+            <li>Emotional design is of high priority in a customer service context</li>
+            <li>User testing revealed issues that were not initially clear during initial analysis</li>
+        </ul>
         </div>
     </div>
     
