@@ -11,8 +11,6 @@ body {
 .twoGrid {
     display: grid;
     grid-template-columns: auto auto;
-    padding-left: 70px;
-    padding-right: 70px;
 }
 
 .threeGrid {
@@ -57,6 +55,10 @@ p, li {
     font-family:Arial, Helvetica, sans-serif;
     padding: 14px;
     text-decoration: none;
+}
+
+#logo img{
+    src:"ACLogo.png";
 }
 
 .bar1, .bar2, .bar3 {
