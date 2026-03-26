@@ -11,6 +11,19 @@ body {
 .twoGrid {
     display: grid;
     grid-template-columns: auto auto;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.threeGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.threeGrid a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 h1, h2, h3, h4 {
@@ -141,15 +154,12 @@ p, li {
 
 /*Image Styling*/
 .row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    display: flex;
+    gap: 30px;
 }
 
 .row img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+    width: 33.3%;
 }
 
 /*EVRI Section Styling*/
@@ -221,8 +231,19 @@ p, li {
 }
 
 .content {
-    padding-top: 16px;
-    padding: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#projectButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    color: #ffffff;
+    font-size: 2vw;
+    padding: 20px;
+    border-style: solid;
 }
 
 
